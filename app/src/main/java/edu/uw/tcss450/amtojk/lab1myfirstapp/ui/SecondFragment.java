@@ -38,6 +38,7 @@ public class SecondFragment extends Fragment {
 
         //Set the text color of the label. NOTE no need to cast
         String text = args.getMessage() + " Andrew was here.";
+        // test
         mBinding.textMessage.setText(text);
     }
 
